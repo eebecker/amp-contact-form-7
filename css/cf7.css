@@ -1,0 +1,44 @@
+.wpcf7{
+    padding-right: 15px;
+}
+.wpcf7 p{
+    margin:  0 0 1em;
+}
+.wpcf7 input{ 
+	display: block; 
+}
+.wpcf7-form-control{
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.wpcf7-list-item input{
+	display: inline;
+}
+.wpcf7-exclusive-checkbox{
+	border: none;
+	padding-left: 0;
+}
+.wpcf7 input.wpcf7-submit{
+	padding: 10px;
+}
+.wpcf7-submit{
+	background-color: #333333;
+    border-color: #333333;
+    color: #ffffff;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.2);
+}
+.wpcf7-form-control.wpcf7-radio{
+    padding: 0;
+    border: 0;
+}
+.ampcf7-error{
+	padding: 5px;
+    border: 2px #e20d34 solid;
+}
+.ampcf7-success{
+	padding: 5px;
+    border: 2px #129e3d solid;
+}
+
