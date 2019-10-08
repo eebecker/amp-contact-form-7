@@ -129,7 +129,9 @@ function ampcf7_submit_form(){
     header("Access-Control-Allow-Origin: *.ampproject.org");
     header("AMP-Access-Control-Allow-Source-Origin: ".$domain_url);
        
- 
+//	ignoring contact form 7 recaptcha spam validation
+ 	add_filter( 'wpcf7_spam', '__return_false', 10 );
+	
 	$form_id    = isset( $_POST['_wpcf7'] ) ? $_POST['_wpcf7'] : '';
     $form       = WPCF7_ContactForm::get_instance( $form_id );
 	$submission = WPCF7_Submission::get_instance( $form );
